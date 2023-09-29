@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03125C"
+    android:orientation="vertical"
+    tools:context=".Login_Activity">
+
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="-15dp"
+        android:src="@drawable/movies" />
+
+    <TextView
+        android:id="@+id/txtSlogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:text="INTERACT WITH YOUR DEMONS"
+        android:textColor="#7E9A9A9A"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edtUSername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:drawableStart="@drawable/baseline_person"
+        android:drawablePadding="8dp"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:maxLength="80"
+        android:padding="20sp"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:drawableStart="@drawable/lock"
+        android:drawablePadding="8dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLength="80"
+        android:padding="20sp"
+        android:textColorHint="#fff" />
+
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#9c0000"
+        android:padding="10dp"
+        android:text="SIGN IN"
+        android:textAllCaps="true"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/txtOr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="or"
+        android:textColor="#72FFFFFF"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnSignFacebook"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#9c0000"
+        android:drawableLeft="@drawable/facebook"
+        android:padding="0dp"
+        android:text="SIGN IN WITH fACEBOOK"
+        android:textAllCaps="true"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/txtDontHaveAccountYet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="Don't have an account yet? Sign Up."
+        android:textColor="#72FFFFFF"
+        android:textSize="20sp" />
+
+</LinearLayout>
